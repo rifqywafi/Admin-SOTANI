@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+@theme {
+  --font-sans: "Roboto", sans-serif;
+  /* Warna khusus sawit */
+  --color-primary: #4CAF50; /* Hijau */
+  --color-secondary: #FF9800; /* Oranye */
+  --color-accent: #FF5722; /* Merah */
+  --color-background: #F5F5F5; /* Abu-abu terang */
+}
