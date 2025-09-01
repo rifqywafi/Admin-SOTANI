@@ -1,18 +1,27 @@
-import type { FormEvent } from "react";
+import { useState } from "react";
 import useAuthStore from "../stores/AuthStore";
 import { useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 export default function Login() {
-  const { username, password, setUsername, setPassword, login } =
-    useAuthStore();
   const navigate = useNavigate();
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false); // state loading baru
+  const login = useAuthStore((s) => s.login);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (username && password) {
-      login();
-      //   alert(`Login sukses sebagai ${username}`);
+    setLoading(true);  // mulai loading
+    const success = await login(username, password);
+    setLoading(false); // selesai loading
+
+    if (success) {
+      toast.success("Login berhasil 🚀");
       navigate("/dashboard");
     } else {
-      alert("Harap isi username dan password!");
+      toast.error("Username atau password salah ❌");
     }
   };
 
@@ -34,6 +43,7 @@ export default function Login() {
               placeholder="Username"
               className="input input-bordered w-full rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary/60"
               required
+              disabled={loading} // disable saat loading
             />
           </div>
 
@@ -48,19 +58,37 @@ export default function Login() {
               placeholder="Password"
               className="input input-bordered w-full rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary/60"
               required
+              disabled={loading} // disable saat loading
             />
           </div>
 
           <button
             type="submit"
-            className="btn w-full rounded-lg p-2 hover:cursor-pointer bg-primary hover:bg-primary/90 text-white font-medium"
+            disabled={loading} // disable tombol saat loading
+            className={`btn w-full rounded-lg p-2 font-medium text-white ${
+              loading
+                ? "bg-primary/70 cursor-not-allowed"
+                : "bg-primary hover:bg-primary/90 cursor-pointer"
+            }`}
           >
-            Login
+            {loading ? "Loading..." : "Login"}
           </button>
         </form>
 
         <p className="text-sm text-gray-500 text-center mt-6">© 2025 SOTANI</p>
       </div>
+
+      <ToastContainer
+        position="bottom-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        pauseOnHover
+        draggable
+        pauseOnFocusLoss
+        theme="colored"
+      />
     </div>
   );
 }

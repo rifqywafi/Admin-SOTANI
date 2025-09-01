@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "tanggal": "2025-07-23",
+    "status": "Matang",
+    "berat": 20.22
+  },
+  {
+    "id": 2,
+    "tanggal": "2025-05-03",
+    "status": "Berjamur",
+    "berat": 5.86
+  },
+  {
+    "id": 3,
+    "tanggal": "2025-05-12",
+    "status": "Berjamur",
+    "berat": 9.94
+  },
+  {
+    "id": 4,
+    "tanggal": "2025-06-24",
+    "status": "Berjamur",
+    "berat": 7.04
+  },
+  {
+    "id": 5,
+    "tanggal": "2025-05-05",
+    "status": "Belum Matang",
+    "berat": 7.27
+  },
+  {
+    "id": 6,
+    "tanggal": "2025-05-18",
+    "status": "Belum Matang",
+    "berat": 12.52
+  },
+  {
+    "id": 7,
+    "tanggal": "2025-05-15",
+    "status": "Terlalu Matang",
+    "berat": 13.18
+  },
+  {
+    "id": 8,
+    "tanggal": "2025-05-18",
+    "status": "Berjamur",
+    "berat": 9.68
+  },
+  {
+    "id": 9,
+    "tanggal": "2025-06-17",
+    "status": "Belum Matang",
+    "berat": 6.67
+  },
+  {
+    "id": 10,
+    "tanggal": "2025-07-27",
+    "status": "Belum Matang",
+    "berat": 7.75
+  },
+  {
+    "id": 11,
+    "tanggal": "2025-06-24",
+    "status": "Terlalu Matang",
+    "berat": 18.05
+  },
+  {
+    "id": 12,
+    "tanggal": "2025-08-11",
+    "status": "Berjamur",
+    "berat": 7.52
+  },
+  {
+    "id": 13,
+    "tanggal": "2025-04-27",
+    "status": "Terlalu Matang",
+    "berat": 9.87
+  },
+  {
+    "id": 14,
+    "tanggal": "2025-05-05",
+    "status": "Belum Matang",
+    "berat": 12.46
+  },
+  {
+    "id": 15,
+    "tanggal": "2025-06-14",
+    "status": "Berjamur",
+    "berat": 10.87
+  },
+  {
+    "id": 16,
+    "tanggal": "2025-06-21",
+    "status": "Berjamur",
+    "berat": 4.0
+  },
+  {
+    "id": 17,
+    "tanggal": "2025-07-28",
+    "status": "Belum Matang",
+    "berat": 5.95
+  },
+  {
+    "id": 18,
+    "tanggal": "2025-05-11",
+    "status": "Berjamur",
+    "berat": 3.21
+  },
+  {
+    "id": 19,
+    "tanggal": "2025-06-12",
+    "status": "Matang",
+    "berat": 24.63
+  },
+  {
+    "id": 20,
+    "tanggal": "2025-05-08",
+    "status": "Matang",
+    "berat": 21.32
+  },
+  {
+    "id": 21,
+    "tanggal": "2025-06-12",
+    "status": "Terlalu Matang",
+    "berat": 11.18
+  },
+  {
+    "id": 22,
+    "tanggal": "2025-07-09",
+    "status": "Belum Matang",
+    "berat": 9.43
+  },
+  {
+    "id": 23,
+    "tanggal": "2025-06-22",
+    "status": "Berjamur",
+    "berat": 3.28
+  },
+  {
+    "id": 24,
+    "tanggal": "2025-07-21",
+    "status": "Matang",
+    "berat": 23.83
+  },
+  {
+    "id": 25,
+    "tanggal": "2025-08-19",
+    "status": "Berjamur",
+    "berat": 4.19
+  },
+  {
+    "id": 26,
+    "tanggal": "2025-07-08",
+    "status": "Terlalu Matang",
+    "berat": 9.25
+  },
+  {
+    "id": 27,
+    "tanggal": "2025-08-02",
+    "status": "Matang",
+    "berat": 20.99
+  },
+  {
+    "id": 28,
+    "tanggal": "2025-06-05",
+    "status": "Terlalu Matang",
+    "berat": 17.52
+  },
+  {
+    "id": 29,
+    "tanggal": "2025-04-30",
+    "status": "Belum Matang",
+    "berat": 10.05
+  },
+  {
+    "id": 30,
+    "tanggal": "2025-04-28",
+    "status": "Berjamur",
+    "berat": 6.45
+  },
+  {
+    "id": 31,
+    "tanggal": "2025-08-08",
+    "status": "Terlalu Matang",
+    "berat": 8.11
+  },
+  {
+    "id": 32,
+    "tanggal": "2025-05-14",
+    "status": "Matang",
+    "berat": 15.73
+  },
+  {
+    "id": 33,
+    "tanggal": "2025-04-30",
+    "status": "Matang",
+    "berat": 15.16
+  },
+  {
+    "id": 34,
+    "tanggal": "2025-05-27",
+    "status": "Berjamur",
+    "berat": 5.81
+  },
+  {
+    "id": 35,
+    "tanggal": "2025-05-17",
+    "status": "Matang",
+    "berat": 21.63
+  },
+  {
+    "id": 36,
+    "tanggal": "2025-07-23",
+    "status": "Berjamur",
+    "berat": 4.18
+  },
+  {
+    "id": 37,
+    "tanggal": "2025-07-31",
+    "status": "Matang",
+    "berat": 12.78
+  },
+  {
+    "id": 38,
+    "tanggal": "2025-08-05",
+    "status": "Matang",
+    "berat": 18.23
+  },
+  {
+    "id": 39,
+    "tanggal": "2025-06-11",
+    "status": "Matang",
+    "berat": 12.14
+  },
+  {
+    "id": 40,
+    "tanggal": "2025-07-02",
+    "status": "Matang",
+    "berat": 14.45
+  },
+  {
+    "id": 41,
+    "tanggal": "2025-05-03",
+    "status": "Berjamur",
+    "berat": 11.14
+  },
+  {
+    "id": 42,
+    "tanggal": "2025-06-09",
+    "status": "Matang",
+    "berat": 15.3
+  },
+  {
+    "id": 43,
+    "tanggal": "2025-07-04",
+    "status": "Matang",
+    "berat": 12.27
+  },
+  {
+    "id": 44,
+    "tanggal": "2025-06-18",
+    "status": "Belum Matang",
+    "berat": 9.2
+  },
+  {
+    "id": 45,
+    "tanggal": "2025-06-30",
+    "status": "Matang",
+    "berat": 12.29
+  },
+  {
+    "id": 46,
+    "tanggal": "2025-07-07",
+    "status": "Belum Matang",
+    "berat": 7.87
+  },
+  {
+    "id": 47,
+    "tanggal": "2025-08-09",
+    "status": "Terlalu Matang",
+    "berat": 8.96
+  },
+  {
+    "id": 48,
+    "tanggal": "2025-07-15",
+    "status": "Belum Matang",
+    "berat": 8.04
+  },
+  {
+    "id": 49,
+    "tanggal": "2025-06-03",
+    "status": "Belum Matang",
+    "berat": 6.97
+  },
+  {
+    "id": 50,
+    "tanggal": "2025-08-14",
+    "status": "Matang",
+    "berat": 19.36
+  },
+  {
+    "id": 51,
+    "tanggal": "2025-06-11",
+    "status": "Belum Matang",
+    "berat": 12.15
+  },
+  {
+    "id": 52,
+    "tanggal": "2025-06-19",
+    "status": "Belum Matang",
+    "berat": 8.24
+  },
+  {
+    "id": 53,
+    "tanggal": "2025-06-07",
+    "status": "Terlalu Matang",
+    "berat": 17.4
+  },
+  {
+    "id": 54,
+    "tanggal": "2025-06-28",
+    "status": "Terlalu Matang",
+    "berat": 16.31
+  },
+  {
+    "id": 55,
+    "tanggal": "2025-08-09",
+    "status": "Belum Matang",
+    "berat": 6.85
+  },
+  {
+    "id": 56,
+    "tanggal": "2025-05-05",
+    "status": "Berjamur",
+    "berat": 11.4
+  },
+  {
+    "id": 57,
+    "tanggal": "2025-05-18",
+    "status": "Terlalu Matang",
+    "berat": 17.83
+  },
+  {
+    "id": 58,
+    "tanggal": "2025-07-02",
+    "status": "Matang",
+    "berat": 12.74
+  },
+  {
+    "id": 59,
+    "tanggal": "2025-06-22",
+    "status": "Berjamur",
+    "berat": 9.38
+  },
+  {
+    "id": 60,
+    "tanggal": "2025-08-16",
+    "status": "Terlalu Matang",
+    "berat": 14.1
+  },
+  {
+    "id": 61,
+    "tanggal": "2025-06-24",
+    "status": "Terlalu Matang",
+    "berat": 8.32
+  },
+  {
+    "id": 62,
+    "tanggal": "2025-08-23",
+    "status": "Matang",
+    "berat": 16.1
+  },
+  {
+    "id": 63,
+    "tanggal": "2025-07-04",
+    "status": "Berjamur",
+    "berat": 11.17
+  },
+  {
+    "id": 64,
+    "tanggal": "2025-08-19",
+    "status": "Belum Matang",
+    "berat": 8.05
+  },
+  {
+    "id": 65,
+    "tanggal": "2025-07-02",
+    "status": "Terlalu Matang",
+    "berat": 8.64
+  },
+  {
+    "id": 66,
+    "tanggal": "2025-08-18",
+    "status": "Berjamur",
+    "berat": 7.99
+  },
+  {
+    "id": 67,
+    "tanggal": "2025-07-24",
+    "status": "Belum Matang",
+    "berat": 8.38
+  },
+  {
+    "id": 68,
+    "tanggal": "2025-05-27",
+    "status": "Belum Matang",
+    "berat": 12.86
+  },
+  {
+    "id": 69,
+    "tanggal": "2025-08-07",
+    "status": "Matang",
+    "berat": 22.94
+  },
+  {
+    "id": 70,
+    "tanggal": "2025-06-04",
+    "status": "Berjamur",
+    "berat": 10.49
+  },
+  {
+    "id": 71,
+    "tanggal": "2025-05-27",
+    "status": "Berjamur",
+    "berat": 9.28
+  },
+  {
+    "id": 72,
+    "tanggal": "2025-07-30",
+    "status": "Terlalu Matang",
+    "berat": 17.29
+  },
+  {
+    "id": 73,
+    "tanggal": "2025-08-23",
+    "status": "Berjamur",
+    "berat": 11.68
+  },
+  {
+    "id": 74,
+    "tanggal": "2025-07-19",
+    "status": "Berjamur",
+    "berat": 8.0
+  },
+  {
+    "id": 75,
+    "tanggal": "2025-07-16",
+    "status": "Belum Matang",
+    "berat": 9.74
+  },
+  {
+    "id": 76,
+    "tanggal": "2025-07-20",
+    "status": "Belum Matang",
+    "berat": 9.74
+  },
+  {
+    "id": 77,
+    "tanggal": "2025-05-03",
+    "status": "Matang",
+    "berat": 13.9
+  },
+  {
+    "id": 78,
+    "tanggal": "2025-07-03",
+    "status": "Terlalu Matang",
+    "berat": 10.01
+  },
+  {
+    "id": 79,
+    "tanggal": "2025-06-11",
+    "status": "Matang",
+    "berat": 23.78
+  },
+  {
+    "id": 80,
+    "tanggal": "2025-06-09",
+    "status": "Terlalu Matang",
+    "berat": 8.04
+  },
+  {
+    "id": 81,
+    "tanggal": "2025-05-10",
+    "status": "Terlalu Matang",
+    "berat": 9.81
+  },
+  {
+    "id": 82,
+    "tanggal": "2025-06-10",
+    "status": "Matang",
+    "berat": 18.16
+  },
+  {
+    "id": 83,
+    "tanggal": "2025-07-02",
+    "status": "Berjamur",
+    "berat": 6.73
+  },
+  {
+    "id": 84,
+    "tanggal": "2025-08-12",
+    "status": "Berjamur",
+    "berat": 7.38
+  },
+  {
+    "id": 85,
+    "tanggal": "2025-05-26",
+    "status": "Terlalu Matang",
+    "berat": 18.33
+  },
+  {
+    "id": 86,
+    "tanggal": "2025-08-07",
+    "status": "Matang",
+    "berat": 11.26
+  },
+  {
+    "id": 87,
+    "tanggal": "2025-08-01",
+    "status": "Belum Matang",
+    "berat": 13.89
+  },
+  {
+    "id": 88,
+    "tanggal": "2025-05-11",
+    "status": "Berjamur",
+    "berat": 7.26
+  },
+  {
+    "id": 89,
+    "tanggal": "2025-05-20",
+    "status": "Berjamur",
+    "berat": 6.54
+  },
+  {
+    "id": 90,
+    "tanggal": "2025-08-21",
+    "status": "Terlalu Matang",
+    "berat": 17.89
+  },
+  {
+    "id": 91,
+    "tanggal": "2025-05-31",
+    "status": "Terlalu Matang",
+    "berat": 14.38
+  },
+  {
+    "id": 92,
+    "tanggal": "2025-06-29",
+    "status": "Terlalu Matang",
+    "berat": 13.51
+  },
+  {
+    "id": 93,
+    "tanggal": "2025-07-10",
+    "status": "Berjamur",
+    "berat": 11.81
+  },
+  {
+    "id": 94,
+    "tanggal": "2025-07-18",
+    "status": "Belum Matang",
+    "berat": 11.32
+  },
+  {
+    "id": 95,
+    "tanggal": "2025-06-25",
+    "status": "Berjamur",
+    "berat": 10.34
+  },
+  {
+    "id": 96,
+    "tanggal": "2025-06-09",
+    "status": "Berjamur",
+    "berat": 10.41
+  },
+  {
+    "id": 97,
+    "tanggal": "2025-08-23",
+    "status": "Matang",
+    "berat": 14.66
+  },
+  {
+    "id": 98,
+    "tanggal": "2025-08-10",
+    "status": "Belum Matang",
+    "berat": 6.39
+  },
+  {
+    "id": 99,
+    "tanggal": "2025-07-29",
+    "status": "Terlalu Matang",
+    "berat": 16.48
+  },
+  {
+    "id": 100,
+    "tanggal": "2025-04-28",
+    "status": "Terlalu Matang",
+    "berat": 19.95
+  },
+  {
+    "id": 101,
+    "tanggal": "2025-05-23",
+    "status": "Terlalu Matang",
+    "berat": 19.41
+  },
+  {
+    "id": 102,
+    "tanggal": "2025-06-14",
+    "status": "Berjamur",
+    "berat": 9.16
+  },
+  {
+    "id": 103,
+    "tanggal": "2025-08-02",
+    "status": "Terlalu Matang",
+    "berat": 17.13
+  },
+  {
+    "id": 104,
+    "tanggal": "2025-06-12",
+    "status": "Belum Matang",
+    "berat": 13.87
+  },
+  {
+    "id": 105,
+    "tanggal": "2025-08-15",
+    "status": "Belum Matang",
+    "berat": 13.14
+  },
+  {
+    "id": 106,
+    "tanggal": "2025-08-05",
+    "status": "Belum Matang",
+    "berat": 11.32
+  },
+  {
+    "id": 107,
+    "tanggal": "2025-07-11",
+    "status": "Belum Matang",
+    "berat": 10.43
+  },
+  {
+    "id": 108,
+    "tanggal": "2025-06-09",
+    "status": "Belum Matang",
+    "berat": 7.65
+  },
+  {
+    "id": 109,
+    "tanggal": "2025-07-16",
+    "status": "Matang",
+    "berat": 14.92
+  },
+  {
+    "id": 110,
+    "tanggal": "2025-06-13",
+    "status": "Belum Matang",
+    "berat": 13.15
+  },
+  {
+    "id": 111,
+    "tanggal": "2025-06-08",
+    "status": "Berjamur",
+    "berat": 6.64
+  },
+  {
+    "id": 112,
+    "tanggal": "2025-04-28",
+    "status": "Matang",
+    "berat": 24.54
+  },
+  {
+    "id": 113,
+    "tanggal": "2025-06-16",
+    "status": "Matang",
+    "berat": 20.45
+  },
+  {
+    "id": 114,
+    "tanggal": "2025-08-05",
+    "status": "Terlalu Matang",
+    "berat": 8.12
+  },
+  {
+    "id": 115,
+    "tanggal": "2025-06-09",
+    "status": "Belum Matang",
+    "berat": 12.22
+  },
+  {
+    "id": 116,
+    "tanggal": "2025-07-30",
+    "status": "Terlalu Matang",
+    "berat": 19.24
+  },
+  {
+    "id": 117,
+    "tanggal": "2025-06-04",
+    "status": "Belum Matang",
+    "berat": 14.35
+  },
+  {
+    "id": 118,
+    "tanggal": "2025-05-14",
+    "status": "Matang",
+    "berat": 22.65
+  },
+  {
+    "id": 119,
+    "tanggal": "2025-07-18",
+    "status": "Matang",
+    "berat": 10.39
+  },
+  {
+    "id": 120,
+    "tanggal": "2025-07-16",
+    "status": "Matang",
+    "berat": 21.01
+  },
+  {
+    "id": 121,
+    "tanggal": "2025-08-04",
+    "status": "Matang",
+    "berat": 16.73
+  },
+  {
+    "id": 122,
+    "tanggal": "2025-06-18",
+    "status": "Terlalu Matang",
+    "berat": 12.04
+  },
+  {
+    "id": 123,
+    "tanggal": "2025-08-02",
+    "status": "Matang",
+    "berat": 21.89
+  },
+  {
+    "id": 124,
+    "tanggal": "2025-05-16",
+    "status": "Terlalu Matang",
+    "berat": 19.62
+  },
+  {
+    "id": 125,
+    "tanggal": "2025-05-19",
+    "status": "Berjamur",
+    "berat": 4.32
+  },
+  {
+    "id": 126,
+    "tanggal": "2025-07-13",
+    "status": "Terlalu Matang",
+    "berat": 9.99
+  },
+  {
+    "id": 127,
+    "tanggal": "2025-06-08",
+    "status": "Berjamur",
+    "berat": 5.82
+  },
+  {
+    "id": 128,
+    "tanggal": "2025-07-03",
+    "status": "Berjamur",
+    "berat": 7.81
+  },
+  {
+    "id": 129,
+    "tanggal": "2025-07-30",
+    "status": "Berjamur",
+    "berat": 10.39
+  },
+  {
+    "id": 130,
+    "tanggal": "2025-08-07",
+    "status": "Berjamur",
+    "berat": 9.68
+  },
+  {
+    "id": 131,
+    "tanggal": "2025-08-15",
+    "status": "Berjamur",
+    "berat": 3.67
+  },
+  {
+    "id": 132,
+    "tanggal": "2025-07-26",
+    "status": "Belum Matang",
+    "berat": 7.12
+  },
+  {
+    "id": 133,
+    "tanggal": "2025-07-27",
+    "status": "Terlalu Matang",
+    "berat": 10.54
+  },
+  {
+    "id": 134,
+    "tanggal": "2025-08-14",
+    "status": "Berjamur",
+    "berat": 4.72
+  },
+  {
+    "id": 135,
+    "tanggal": "2025-07-14",
+    "status": "Berjamur",
+    "berat": 7.92
+  },
+  {
+    "id": 136,
+    "tanggal": "2025-06-22",
+    "status": "Matang",
+    "berat": 22.98
+  },
+  {
+    "id": 137,
+    "tanggal": "2025-07-23",
+    "status": "Matang",
+    "berat": 21.62
+  },
+  {
+    "id": 138,
+    "tanggal": "2025-08-23",
+    "status": "Berjamur",
+    "berat": 8.95
+  },
+  {
+    "id": 139,
+    "tanggal": "2025-08-04",
+    "status": "Belum Matang",
+    "berat": 5.63
+  },
+  {
+    "id": 140,
+    "tanggal": "2025-05-04",
+    "status": "Belum Matang",
+    "berat": 13.32
+  },
+  {
+    "id": 141,
+    "tanggal": "2025-08-08",
+    "status": "Terlalu Matang",
+    "berat": 11.24
+  },
+  {
+    "id": 142,
+    "tanggal": "2025-05-18",
+    "status": "Berjamur",
+    "berat": 5.71
+  },
+  {
+    "id": 143,
+    "tanggal": "2025-05-31",
+    "status": "Belum Matang",
+    "berat": 12.64
+  },
+  {
+    "id": 144,
+    "tanggal": "2025-07-20",
+    "status": "Matang",
+    "berat": 22.87
+  },
+  {
+    "id": 145,
+    "tanggal": "2025-06-17",
+    "status": "Belum Matang",
+    "berat": 10.54
+  },
+  {
+    "id": 146,
+    "tanggal": "2025-07-18",
+    "status": "Belum Matang",
+    "berat": 5.66
+  },
+  {
+    "id": 147,
+    "tanggal": "2025-05-01",
+    "status": "Matang",
+    "berat": 24.16
+  },
+  {
+    "id": 148,
+    "tanggal": "2025-07-07",
+    "status": "Berjamur",
+    "berat": 6.8
+  },
+  {
+    "id": 149,
+    "tanggal": "2025-08-22",
+    "status": "Matang",
+    "berat": 14.45
+  },
+  {
+    "id": 150,
+    "tanggal": "2025-06-02",
+    "status": "Berjamur",
+    "berat": 11.39
+  },
+  {
+    "id": 151,
+    "tanggal": "2025-05-21",
+    "status": "Matang",
+    "berat": 22.35
+  },
+  {
+    "id": 152,
+    "tanggal": "2025-08-08",
+    "status": "Belum Matang",
+    "berat": 14.34
+  },
+  {
+    "id": 153,
+    "tanggal": "2025-07-03",
+    "status": "Matang",
+    "berat": 22.25
+  },
+  {
+    "id": 154,
+    "tanggal": "2025-07-27",
+    "status": "Berjamur",
+    "berat": 8.48
+  },
+  {
+    "id": 155,
+    "tanggal": "2025-06-06",
+    "status": "Berjamur",
+    "berat": 3.47
+  },
+  {
+    "id": 156,
+    "tanggal": "2025-08-05",
+    "status": "Berjamur",
+    "berat": 10.7
+  },
+  {
+    "id": 157,
+    "tanggal": "2025-08-04",
+    "status": "Terlalu Matang",
+    "berat": 10.45
+  },
+  {
+    "id": 158,
+    "tanggal": "2025-06-12",
+    "status": "Terlalu Matang",
+    "berat": 11.89
+  },
+  {
+    "id": 159,
+    "tanggal": "2025-08-12",
+    "status": "Matang",
+    "berat": 11.72
+  },
+  {
+    "id": 160,
+    "tanggal": "2025-08-12",
+    "status": "Belum Matang",
+    "berat": 11.17
+  },
+  {
+    "id": 161,
+    "tanggal": "2025-07-05",
+    "status": "Terlalu Matang",
+    "berat": 16.8
+  },
+  {
+    "id": 162,
+    "tanggal": "2025-06-25",
+    "status": "Berjamur",
+    "berat": 4.7
+  },
+  {
+    "id": 163,
+    "tanggal": "2025-05-27",
+    "status": "Terlalu Matang",
+    "berat": 15.51
+  },
+  {
+    "id": 164,
+    "tanggal": "2025-06-06",
+    "status": "Berjamur",
+    "berat": 6.25
+  },
+  {
+    "id": 165,
+    "tanggal": "2025-06-29",
+    "status": "Terlalu Matang",
+    "berat": 16.44
+  },
+  {
+    "id": 166,
+    "tanggal": "2025-08-21",
+    "status": "Belum Matang",
+    "berat": 7.3
+  },
+  {
+    "id": 167,
+    "tanggal": "2025-07-06",
+    "status": "Matang",
+    "berat": 15.63
+  },
+  {
+    "id": 168,
+    "tanggal": "2025-04-29",
+    "status": "Belum Matang",
+    "berat": 14.52
+  },
+  {
+    "id": 169,
+    "tanggal": "2025-07-10",
+    "status": "Matang",
+    "berat": 13.84
+  },
+  {
+    "id": 170,
+    "tanggal": "2025-08-14",
+    "status": "Terlalu Matang",
+    "berat": 19.58
+  },
+  {
+    "id": 171,
+    "tanggal": "2025-07-03",
+    "status": "Terlalu Matang",
+    "berat": 19.04
+  },
+  {
+    "id": 172,
+    "tanggal": "2025-05-27",
+    "status": "Belum Matang",
+    "berat": 5.65
+  },
+  {
+    "id": 173,
+    "tanggal": "2025-08-06",
+    "status": "Terlalu Matang",
+    "berat": 10.54
+  },
+  {
+    "id": 174,
+    "tanggal": "2025-08-04",
+    "status": "Berjamur",
+    "berat": 5.97
+  },
+  {
+    "id": 175,
+    "tanggal": "2025-07-20",
+    "status": "Berjamur",
+    "berat": 9.56
+  },
+  {
+    "id": 176,
+    "tanggal": "2025-06-15",
+    "status": "Terlalu Matang",
+    "berat": 9.9
+  },
+  {
+    "id": 177,
+    "tanggal": "2025-08-04",
+    "status": "Terlalu Matang",
+    "berat": 13.49
+  },
+  {
+    "id": 178,
+    "tanggal": "2025-08-17",
+    "status": "Belum Matang",
+    "berat": 5.52
+  },
+  {
+    "id": 179,
+    "tanggal": "2025-08-21",
+    "status": "Belum Matang",
+    "berat": 7.32
+  },
+  {
+    "id": 180,
+    "tanggal": "2025-04-28",
+    "status": "Terlalu Matang",
+    "berat": 17.77
+  },
+  {
+    "id": 181,
+    "tanggal": "2025-05-30",
+    "status": "Berjamur",
+    "berat": 7.45
+  },
+  {
+    "id": 182,
+    "tanggal": "2025-05-17",
+    "status": "Terlalu Matang",
+    "berat": 10.72
+  },
+  {
+    "id": 183,
+    "tanggal": "2025-05-29",
+    "status": "Matang",
+    "berat": 16.02
+  },
+  {
+    "id": 184,
+    "tanggal": "2025-05-17",
+    "status": "Belum Matang",
+    "berat": 14.29
+  },
+  {
+    "id": 185,
+    "tanggal": "2025-07-12",
+    "status": "Terlalu Matang",
+    "berat": 14.83
+  },
+  {
+    "id": 186,
+    "tanggal": "2025-08-18",
+    "status": "Belum Matang",
+    "berat": 10.02
+  },
+  {
+    "id": 187,
+    "tanggal": "2025-06-21",
+    "status": "Terlalu Matang",
+    "berat": 19.83
+  },
+  {
+    "id": 188,
+    "tanggal": "2025-07-19",
+    "status": "Berjamur",
+    "berat": 9.88
+  },
+  {
+    "id": 189,
+    "tanggal": "2025-06-16",
+    "status": "Berjamur",
+    "berat": 4.32
+  },
+  {
+    "id": 190,
+    "tanggal": "2025-08-08",
+    "status": "Berjamur",
+    "berat": 4.29
+  },
+  {
+    "id": 191,
+    "tanggal": "2025-08-16",
+    "status": "Matang",
+    "berat": 23.05
+  },
+  {
+    "id": 192,
+    "tanggal": "2025-07-14",
+    "status": "Belum Matang",
+    "berat": 12.92
+  },
+  {
+    "id": 193,
+    "tanggal": "2025-05-11",
+    "status": "Terlalu Matang",
+    "berat": 17.77
+  },
+  {
+    "id": 194,
+    "tanggal": "2025-08-06",
+    "status": "Terlalu Matang",
+    "berat": 8.83
+  },
+  {
+    "id": 195,
+    "tanggal": "2025-08-13",
+    "status": "Berjamur",
+    "berat": 7.43
+  },
+  {
+    "id": 196,
+    "tanggal": "2025-06-18",
+    "status": "Berjamur",
+    "berat": 9.88
+  },
+  {
+    "id": 197,
+    "tanggal": "2025-07-13",
+    "status": "Berjamur",
+    "berat": 3.52
+  },
+  {
+    "id": 198,
+    "tanggal": "2025-06-28",
+    "status": "Berjamur",
+    "berat": 7.64
+  },
+  {
+    "id": 199,
+    "tanggal": "2025-06-15",
+    "status": "Terlalu Matang",
+    "berat": 16.21
+  },
+  {
+    "id": 200,
+    "tanggal": "2025-08-13",
+    "status": "Matang",
+    "berat": 11.51
+  }
+]

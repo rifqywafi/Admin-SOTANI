@@ -1,24 +1,52 @@
 import { create } from "zustand";
+import { persist } from "zustand/middleware";
+import { supabase } from "../services/supabaseClient";
+
+interface User {
+  id: string;
+  username: string;
+  email: string;
+  last_login: string;
+}
 
 interface AuthState {
-  username: string;
-  password: string;
+  user: User | null;
   isLoggedIn: boolean;
-  setUsername: (username: string) => void;
-  setPassword: (password: string) => void;
-  login: () => void;
+  login: (username: string, password: string) => Promise<boolean>;
   logout: () => void;
 }
 
-const useAuthStore = create<AuthState>((set) => ({
-  username: "",
-  password: "",
-  isLoggedIn: false,
+const useAuthStore = create<AuthState>()(
+  persist(
+    (set) => ({
+      user: null,
+      isLoggedIn: false,
 
-  setUsername: (username) => set({ username }),
-  setPassword: (password) => set({ password }),
-  login: () => set({ isLoggedIn: true }),
-  logout: () => set({ isLoggedIn: false, username: "", password: "" }),
-}));
+      // LOGIN dengan Supabase RPC
+      login: async (username: string, password: string) => {
+        const { data, error } = await supabase.rpc("verify_admin_login", {
+          p_username: username,
+          p_password: password,
+        });
+
+        if (error || !data || data.length === 0) {
+          console.error("Login failed:", error);
+          return false;
+        }
+
+        // Simpan user di store
+        set({ user: data[0], isLoggedIn: true });
+        return true;
+      },
+
+      logout: () => {
+        set({ user: null, isLoggedIn: false });
+      },
+    }),
+    {
+      name: "auth-storage", // localStorage key
+    }
+  )
+);
 
 export default useAuthStore;

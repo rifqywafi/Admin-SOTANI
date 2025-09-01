@@ -1,4 +1,61 @@
 @import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "main";
+  default: true; /* jadikan default */
+  prefersdark: false;
+  color-scheme: light;
+
+  /* Warna dasar */
+  --color-base-100: #FFFFFF; /* abu terang */
+  --color-base-200: #FFFFFF;
+  --color-base-300: #CFCFCF;
+  --color-base-content: #1F2937; /* abu tua untuk teks */
+
+  /* Warna utama */
+  --color-primary: #4CAF50;          /* hijau sawit */
+  --color-primary-content: #FFFFFF;  /* teks kontras */
+
+  --color-secondary: #FF9800;        /* oranye */
+  --color-secondary-content: #FFFFFF;
+
+  --color-accent: #FF5722;           /* merah */
+  --color-accent-content: #FFFFFF;
+
+  --color-neutral: #2A323C;          /* netral gelap */
+  --color-neutral-content: #F5F5F5;
+
+  /* Info, success, warning, error */
+  --color-info: #2196F3;             /* biru */
+  --color-info-content: #FFFFFF;
+
+  --color-success: #009688;          /* hijau toska */
+  --color-success-content: #FFFFFF;
+
+  --color-warning: #FFC107;          /* kuning */
+  --color-warning-content: #1F2937;
+
+  --color-error: #F44336;            /* merah error */
+  --color-error-content: #FFFFFF;
+
+  /* Border radius */
+  --radius-selector: 0.75rem;
+  --radius-field: 0.375rem;
+  --radius-box: 0.5rem;
+
+  /* Base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* Border size */
+  --border: 1px;
+
+  /* Effects */
+  --depth: 1;
+  --noise: 0;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 @layer base {
