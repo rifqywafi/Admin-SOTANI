@@ -1,13 +1,20 @@
 import { create } from "zustand";
 
 // ================== Types ==================
-export type StatusSawit = "Matang" | "Belum Matang" | "Terlalu Matang" | "Berjamur";
+export type StatusSawit =
+  | "Matang"
+  | "Belum Matang"
+  | "Terlalu Matang"
+  | "Berjamur";
+
+export type Kontainer = "A" | "B" | "C";
 
 export interface SawitData {
   id: number;
   tanggal: string; // YYYY-MM-DD
   berat: number;
   status: StatusSawit;
+  kontainer: Kontainer; // field baru
 }
 
 // Bulan Indonesia (untuk konversi angka -> nama)
@@ -45,7 +52,7 @@ interface SawitStore {
   data: SawitData[];
   filteredData: SawitData[];
   selectedMonth: string; // "Semua" | "Januari" | ...
-  selectedYear: number;  // contoh: 2025
+  selectedYear: number; // contoh: 2025
 
   setData: (data: SawitData[]) => void;
   setSelectedMonth: (month: string) => void;
@@ -81,7 +88,8 @@ export const useSawitStore = create<SawitStore>((set, get) => ({
       const monthName = getMonthNameFromTanggal(item.tanggal);
       const year = getYearFromTanggal(item.tanggal);
 
-      const matchMonth = selectedMonth === "Semua" || monthName === selectedMonth;
+      const matchMonth =
+        selectedMonth === "Semua" || monthName === selectedMonth;
       const matchYear = year === selectedYear;
 
       return matchMonth && matchYear;

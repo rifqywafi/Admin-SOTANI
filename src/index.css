@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 @plugin "daisyui";
 @plugin "daisyui/theme" {
   name: "main";
@@ -8,21 +10,21 @@
 
   /* Warna dasar */
   --color-base-100: #FFFFFF; /* abu terang */
-  --color-base-200: #FFFFFF;
+  --color-base-200: #F2F1ED;
   --color-base-300: #CFCFCF;
   --color-base-content: #1F2937; /* abu tua untuk teks */
 
   /* Warna utama */
-  --color-primary: #4CAF50;          /* hijau sawit */
+  --color-primary: #711014;          /* hijau sawit */
   --color-primary-content: #FFFFFF;  /* teks kontras */
 
-  --color-secondary: #FF9800;        /* oranye */
+  --color-secondary: #B38F6F;        /* oranye */
   --color-secondary-content: #FFFFFF;
 
-  --color-accent: #FF5722;           /* merah */
+  --color-accent: #FF5722;   
   --color-accent-content: #FFFFFF;
 
-  --color-neutral: #2A323C;          /* netral gelap */
+  --color-neutral: #161616;
   --color-neutral-content: #F5F5F5;
 
   /* Info, success, warning, error */
@@ -55,8 +57,6 @@
   --noise: 0;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 @layer base {
   body {

@@ -4,9 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 import {
   Home,
   Database,
-  BarChart3,
-  Settings,
-  Users,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
@@ -32,9 +29,6 @@ export default function Sidebar() {
   const menus = [
     { name: "Dashboard", icon: <Home size={20} />, paths: ["/", "/dashboard"] },
     { name: "Data Sawit", icon: <Database size={20} />, paths: ["/sawit"] },
-    { name: "Analytics", icon: <BarChart3 size={20} />, paths: ["/analytics"] },
-    { name: "Users", icon: <Users size={20} />, paths: ["/users"] },
-    { name: "Settings", icon: <Settings size={20} />, paths: ["/settings"] },
   ];
 
   return (
