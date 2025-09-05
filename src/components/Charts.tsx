@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   BarChart,
   Bar,
@@ -160,7 +160,7 @@ export function PersentaseStatusSawit() {
             }
             isAnimationActive={true}
           >
-            {data.map((entry, index) => (
+            {data.map((_, index) => (
               <ReCell
                 key={`cell-${index}`}
                 fill={COLORS_DONUT[index % COLORS_DONUT.length]}
@@ -481,7 +481,7 @@ export function StatusSawitKeseluruhan() {
         outerRadius={90}
         label
       >
-        {chartData.map((entry, index) => (
+        {chartData.map((_, index) => (
           <Cell
             key={`cell-${index}`}
             fill={COLORS[index % COLORS.length]}

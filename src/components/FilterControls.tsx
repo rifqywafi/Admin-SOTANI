@@ -1,4 +1,3 @@
-import React from "react";
 import { useSawitStore, BULAN_ID_OPTIONS} from "../stores/SawitStore";
 import type { SawitData } from "../stores/SawitStore";
 
