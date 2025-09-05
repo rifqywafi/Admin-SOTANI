@@ -1,4 +1,3 @@
-// filepath: d:\admin-sawit\src\pages\Sawit.tsx
 import { useEffect, useState } from "react";
 import TableWrapper from "../components/TableWrapper";
 import Pagination from "../components/Pagination";
@@ -12,6 +11,7 @@ export default function SawitPage() {
   const { filteredData, setData } = useSawitStore();
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(10);
+  const [search, setSearch] = useState(""); // Tambah state search
 
   // Ambil data dari public/json/dummysawit.json
   useEffect(() => {
@@ -21,18 +21,29 @@ export default function SawitPage() {
       .catch((err) => console.error("Gagal load JSON:", err));
   }, [setData]);
 
+  // Filter data berdasarkan search
+  const searchedData = filteredData.filter((item) => {
+    const q = search.toLowerCase();
+    return (
+      item.id.toString().toLowerCase().includes(q) ||
+      new Date(item.tanggal).toLocaleDateString("id-ID").includes(q) ||
+      item.status.toLowerCase().includes(q) ||
+      item.berat.toString().toLowerCase().includes(q) ||
+      item.kontainer.toLowerCase().includes(q)
+    );
+  });
+
   // Pagination logic
-  const totalPages = Math.ceil(filteredData.length / pageSize);
+  const totalPages = Math.ceil(searchedData.length / pageSize);
   const startIndex = (currentPage - 1) * pageSize;
-  const paginatedData = filteredData.slice(startIndex, startIndex + pageSize);
+  const paginatedData = searchedData.slice(startIndex, startIndex + pageSize);
 
   const handlePrintAll = () => {
-    generatePDF(filteredData);
+    generatePDF(searchedData);
   };
 
   const handleExportExcel = () => {
-    // Data yang akan diexport (seluruh filteredData)
-    const dataToExport = filteredData.map((item) => ({
+    const dataToExport = searchedData.map((item) => ({
       ID: item.id,
       Tanggal: new Date(item.tanggal).toLocaleDateString("id-ID"),
       Status: item.status,
@@ -72,7 +83,7 @@ export default function SawitPage() {
               </tr>
             </thead>
             <tbody>
-              ${filteredData
+              ${searchedData
                 .map(
                   (item) => `
                 <tr>
@@ -102,9 +113,19 @@ export default function SawitPage() {
   return (
     <div className="p-4">
       <h1 className="text-xl text-primary font-semibold mb-4">Data Sawit</h1>
-      <div className="justify-between flex flex-row items-center">
+      <div className="justify-between flex flex-row items-center mb-2">
         <div className="">
-          <label htmlFor="pageSize" className="font-medium">
+          <input
+          type="text"
+          placeholder="Cari data..."
+          value={search}
+          onChange={(e) => {
+            setSearch(e.target.value);
+            setCurrentPage(1); // Reset ke halaman 1 saat search berubah
+          }}
+          className="input input-bordered input-sm w-56 mr-4"
+        />
+          <label htmlFor="pageSize" className="">
             Tampilkan
           </label>
           <select
@@ -121,6 +142,7 @@ export default function SawitPage() {
           </select>
           data
         </div>
+        
         <div className="flex gap-2">
           <button
             onClick={handlePrintTable}
